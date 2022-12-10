@@ -1,0 +1,292 @@
+* { 
+    margin: 0;
+  }
+
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: 'Montserrat';
+   
+}
+.scrollnav{
+    position: fixed;
+    width:100%;
+}
+.navbar{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #000000;
+}
+.logo{
+    margin-right: auto;
+    margin-left:5rem;
+}
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+.nav-links li{
+    padding: 10px 20px;
+}
+.nav-links a{
+    font-family: 'Montserrat';
+    font-size:13px;
+    font-weight:700;
+    color:#ffffff;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 0.5s;
+
+}
+.nav-links a:hover, .nav-links a:focus, .nav-links a:active{
+    color:#a7a7a7;   
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;  
+}
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {
+    background-color: #000000
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+h1{
+    margin-top: 40px;
+    font-size: 36px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h1 span{
+    font-size: 36px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+h2 span{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #E0E0E0;
+}
+
+p1{
+    font-family: 'Montserrat';
+    font-style:normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 137.9%;
+    color: #000000;
+    
+}
+p1 span{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.main-banner{   
+    display:flex;
+    height:57rem;
+    background-attachment: fixed;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/UBCMOA01.png);
+}
+.banner-header{
+    margin-left: 10rem;
+    align-self: center;
+}
+.details{
+    padding-top: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+ 
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #000000;
+}
+.details-element{
+    display:block;
+    width:20rem;
+}
+.designer{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.button{
+    display:inline-block;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#000000;
+    margin-top:30px;
+    margin-bottom:30px;
+    border: solid black;
+
+    padding-left: 30px; 
+    padding-top: 15px;
+    padding-right: 35px;
+    padding-bottom: 15px;
+    
+    transition-property: color, background-color;
+    transition-duration: 1s;
+}
+.div2 a:hover, .div2 a:focus, .div2 a:active{
+    color:#ffffff;
+    background-color: #000000;
+}
+
+.examples{
+    display:flex;
+    gap:1%;
+    background-color: #E0E0E0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.example-projects{
+    margin-left:3%;
+    align-self: center;
+    margin-right:20%;  
+}
+.example-projects a:hover, .example-projects a:focus, .example-projects a:active{
+    color:#ffffff;
+    background-color: #000000;
+}
+.example-img1{
+    background-image: url(/img/MOA02.png);
+    width:28%;
+    min-height:500px;
+    background-size:cover;
+}
+.example-img2{
+    background-image: url(/img/complex01.png);
+    width:28%;
+    min-height: 500px;;
+    background-size: cover;
+}
+
+.example1-main-banner{   
+    height:52rem;
+    background-attachment: fixed;
+    background-position:center 10%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(/img/MOA-banner.png);
+}
+.example1-second-banner{
+    height:45rem;
+    background-attachment: fixed;
+    background-position:center 10%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(/img/MOA-exterior.png);
+}
+.example1-overview{
+    padding-left: 21%;
+    padding-right: 21%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    background-color: #000000;
+}
+.example-details{
+    padding-top: 4rem;
+    padding-bottom: 4rem;  
+}
+.example-overview-text{
+    padding-left:20%;
+    margin-top:40px;
+}
+.example2-main-banner{
+    height:45rem;
+    background-attachment: fixed;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(/img/lawcourts-interior.jpg);
+}
+.example2-overview-text{
+    margin-top:40px;
+    width:70%;
+}
+.example2-overview{
+    padding-left: 21%;
+    padding-right: 21%;
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    background-color: #ffffff;
+}
+.example2-second-banner{
+    height:45rem;
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url(/img/lawcourts-exterior.jpg);
+}
+
+.citations{   
+    display:flex;
+    background-attachment: fixed;
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/lawcourts-exterior.jpg);
+}
+.citations-text{
+    width:40vw;
+    margin: 20rem 10rem 10rem 10rem;
+    padding:4rem 8rem 4rem 8rem;
+    align-self: center;
+    background-color: #FFFFFF;
+}
+.citation{
+    padding-bottom: 20px;
+}
