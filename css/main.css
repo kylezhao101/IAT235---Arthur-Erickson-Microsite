@@ -17,19 +17,20 @@ body{
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 5px;
     background-color: #000000;
 }
 .logo{
     margin-right: auto;
-    margin-left:5rem;
+    margin-left:8rem;
 }
 .nav-links{
     list-style:none;
     display:flex;
+    padding-right:5rem;
 }
 .nav-links li{
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 .nav-links a{
     font-family: 'Montserrat';
@@ -132,7 +133,7 @@ p1 span{
     background-image: url(/img/UBCMOA01.png);
 }
 .banner-header{
-    margin-left: 10rem;
+    padding-left: 8rem;
     align-self: center;
 }
 .details{
