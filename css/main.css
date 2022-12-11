@@ -30,7 +30,7 @@ body{
     padding-right:5rem;
 }
 .nav-links li{
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 .nav-links a{
     font-family: 'Montserrat';
@@ -44,6 +44,10 @@ body{
 }
 .nav-links a:hover, .nav-links a:focus, .nav-links a:active{
     color:#a7a7a7;   
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 .dropdown-content{
     display: none;
@@ -59,12 +63,11 @@ body{
     text-decoration: none;
     display: block;
   }
-.dropdown-content a:hover {
-    background-color: #000000
-}
+
 .dropdown:hover .dropdown-content {
     display: block;
-  }
+}
+
 h1{
     margin-top: 40px;
     font-size: 36px;
