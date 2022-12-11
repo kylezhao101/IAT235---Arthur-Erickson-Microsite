@@ -15,7 +15,6 @@
 }
     
 .div1 {
-    animation: scroll-horizontal 3s;
     background:url(/img/ericksonPortrait.png) center center;
     background-size: cover;
     grid-area: 1 / 1 / 2 / 5; 
@@ -43,7 +42,6 @@
     grid-area: 2 / 3 / 3/ 9; 
 }
 .div4{
-    animation: scroll-horizontal-reverse 3s;
     background:url(/img/sfuBurnaby.png) center center;
     background-size:cover;
     grid-area: 2 / 9 / 3/ 13; 
@@ -110,20 +108,4 @@
 }
 .footer-main-site a:hover, .footer-main-site a:focus, .footer-main-site a:active{
     color:#ffffff;   
-}
-@keyframes scroll-horizontal {
-  0% {
-    transform: translateX(-50%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes scroll-horizontal-reverse {
-    0% {
-      transform: translateX(50%);
-    }
-    100% {
-      transform: translateX(0);
-    }
 }
