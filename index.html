@@ -8,36 +8,35 @@
         <title>Arthur Erickson Exhibition</title>
         
         <link href="css/main.css" rel="stylesheet">
-        <link href="css/grid.css" rel="stylesheet">
         <link href="css/font.css" rel="stylesheet">
+        <link rel="stylesheet" href="dist/output.css">
         <script defer src="js/app.js"></script>
     </head>
     <body>
-        <div class="scrollnav">
-        <div class="navbar">
-            <a class="logo" href="#home"><img src="svg/logo.svg" height="5%" alt = "logo"></a>
-            <nav>
-                <ul class = "nav-links">
-                    <li><a href = "#event-details">EXHIBITION DETAILS</a></li>
-                    <li><a href = "#about-the-designer">ARTHUR ERICKSON</a></li>
-                    <div class ="dropdown">
-                        <li ><a href = "example-projects.html">EXAMPLE PROJECTS</a></li>
-                            <div class = "dropdown-content">
-                                <a href = "example-projects.html#MOA">Museum of Anthropology</a>
-                                <a href = "example-projects.html#COMPLEX">Vancouver Lawcourts Complex</a>
-                            </div>
-                    </div>
-                </ul>
-            </nav>
-        </div>
-        </div>
+        <nav class="bg-black w-full border-none fixed z-10 flex justify-end items-center text-sm p-2">
+            <a href="#home" class="mr-auto">
+                <img src="svg/logo.svg" class="ml-28" alt = "logo" height="3%">
+            </a>
+            <ul class="list-none flex gap-x-7 mr-28">
+                <li class="text-white hover:text-gray-400 duration-100"><a href = "#event-details">EXHIBITION DETAILS</a></li>
+                <li class="text-white hover:text-gray-400 duration-100"><a href = "#about-the-designer">ARTHUR ERICKSON</a></li>
+                <div class ="dropdown text-white hover:text-gray-400 duration-100">
+                    <li ><a href = "example-projects.html">EXAMPLE PROJECTS</a></li>
+                        <div class = "dropdown-content">
+                            <a class ="dropdown text-white hover:text-gray-400 duration-100" href = "example-projects.html#MOA">Museum of Anthropology</a>
+                            <a class ="dropdown text-white hover:text-gray-400 duration-100" href = "example-projects.html#COMPLEX">Vancouver Lawcourts Complex</a>
+                        </div>
+                </div>
+            </ul>
+        </nav>
         <div class="main-banner" id = "home">
-            <div class="banner-header hidden">
+            <div class="banner-header js-show-on-scroll">
                 <h1> <span>
                     the architecture of <br>arthur erickson
                 </h1></span>
-                <h2><span>
-                    until <br>2023.1.31</br>
+                <br><h3><span>Galleries, sketches, models, and site tours.</span></h3>
+                <br><h2><span>
+                    until 2023.1.31</br>
                 </h2></span>
            </div>
         </div>
@@ -71,23 +70,22 @@
                     $12</span></p1>
                 <p1><span><br><br>Under 19<br>
                     FREE</span></p1>
-                
             </div>
         </div>        
         <div class = "designer" id = "about-the-designer">
             <div class="designer-parent">
                 <div class="div1"></div>
-                <div class = "div2 hidden">
+                <div class = "div2 js-show-on-scroll">
                     <h1>about the designer</h1>
                     <h3>arthur erickson 1924 - 2009</h3>
                     <p1>
                         Arthur Charles Erickson is known as Canada’s most influencial architect, being the only Canadian to win the 1986 American Institute of Architects Gold Medal. When designing, Arthur Erickson aims to integrate a style of modernist architecture that responds and complements the natural conditions of their locations. Through designing with environment in mind, Erickson is able to spaces that provide positive experiences, breaking the barrier between connecting with the interior and exterior of buildings.
                     </p1> 
                     <div>
-                        <a href="https://www.arthurerickson.com/" class = "button"> website</a>
+                        <a href="https://www.arthurerickson.com/" class = "button">Official website</a>
                     </div>
                 </div>           
-                <div class="div3 hidden">
+                <div class="div3 js-show-on-scroll">
                     <h2>
                         1950
                     </h2>
@@ -107,7 +105,7 @@
         <div class="examples">
             <img class = "example-img1"  >
             <img class = "example-img2" >
-          <div class = "example-projects hidden">
+          <div class = "example-projects js-show-on-scroll">
                 <h2>
                     example projects<br><br>
                     THE UBC MUSEUM OF ANTHROPOLOGY<br>
@@ -123,7 +121,6 @@
         <div class="footer">
             <div class = "footer-main-site">
                 <h1><span>Museum of <br>Architecture + <br>Engineering </span></h1>
-                <h2><span>HOME PAGE</span></h2>
                 <a href ="citations.html" class="footer-button">Citations<br></a>
                 <a href ="/pdf/KyleZhao_301469553_SiteDesign.pdf" target="_blank" class="footer-button">Design Document<br></a>
             </div>

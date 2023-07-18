@@ -1,14 +1,20 @@
-const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) =>{
-        if(entry.isIntersecting) {
-            entry.target.classList.add('show');
-            
-        }
-        else {
-            entry.target.classList.remove('show');
-        }
+const callback = function (entries) {
+    entries.forEach((entry) => {
+      console.log(entry);
+  
+      if (entry.isIntersecting) {
+        entry.target.classList.add("animate-fadeIn");
+      } else {
+        entry.target.classList.remove("animate-fadeIn");
+      }
     });
-});
-
-const hiddenElements = document.querySelectorAll('.hidden');
-hiddenElements.forEach((el) => observer.observe(el));
+  };
+  
+  const observer = new IntersectionObserver(callback);
+  
+  const targets = document.querySelectorAll(".js-show-on-scroll");
+  targets.forEach(function (target) {
+    target.classList.add("opacity-0");
+    observer.observe(target);
+  });
+  
