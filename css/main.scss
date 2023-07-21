@@ -2,6 +2,7 @@ $base-color: #000000;
 
 * { 
     margin: 0;
+    border: 1px red solid;
   }
 
 html{
@@ -53,108 +54,6 @@ body{
     display: block;
 }
 
-h1{
-    margin-top: 40px;
-    font-size: 36px;
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-h1 span{
-    font-size: 36px;
-    font-style: normal;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFFFFF;
-}
-h2{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    text-transform: uppercase;
-}
-h2 span{
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-h3{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #E0E0E0;
-}
-
-p1{
-    font-family: 'Montserrat';
-    font-style:normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 137.9%;
-    color: $base-color;
-    
-}
-p1 span{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 20px;
-    color: #FFFFFF;
-}
-
-.main-banner{   
-    display:flex;
-    height:57rem;
-    background-attachment: fixed;
-    background-position:left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(/img/UBCMOA01.png);
-}
-@keyframes main-banner-images{
-    0%{
-      background-image: url(/img/UBCMOA01.png);
-    }
-    25%{
-      background-image: url(/img/MOA02.png);
-    }
-    50%{
-      background-image: url(image3);
-    }
-    75%{
-      background-image: url(image4);
-    }
-    100%{
-      background-image: url(image5);
-    }
- }
-.banner-header{
-    padding-left: 8rem;
-    align-self: center;
-}
-.details{
-    padding-top: 5rem;
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-bottom: 8rem;
- 
-    display:flex;
-    justify-content:space-evenly;
-    background-color: $base-color;
-}
-.details-element{
-    display:block;
-    width:20rem;
-}
 .designer{
     padding-top: 8rem;
     padding-bottom: 8rem;
