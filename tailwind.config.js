@@ -10,6 +10,7 @@ module.exports = {
         'hero-landing' : "url('/img/UBCMOA01.png')"
       },
       height:{
+        'screen-90' : '90dvh',
         'screen-80' : '80dvh',
         'screen-70' : '70dvh',
         'screen-60' : '60dvh',
@@ -20,10 +21,11 @@ module.exports = {
       },
       width:{
         'screen-20' : '20vw',
+        'screen-30' : '30vw',
       },
       gap:{
         'screen-w-15' : '15vw'
-      }
+      },
     },
   },
   plugins: [],

@@ -79,10 +79,6 @@ body{
     transition-property: color, background-color;
     transition-duration: 1s;
 }
-.div2 a:hover, .div2 a:focus, .div2 a:active{
-    color:#ffffff;
-    background-color: $base-color;
-}
 .examples{
     display:flex;
     gap:1%;
